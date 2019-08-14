@@ -1,0 +1,22 @@
+	footer{
+	position: absolute;
+	width: 100%;		
+	bottom: 0px;
+}
+.flexxx{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	margin-top: -60px;
+}
+
+.flexxx2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	margin-top: -18%;
+}

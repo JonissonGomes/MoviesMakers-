@@ -15,5 +15,33 @@
   </div>
     </div>
   </nav>
+	<!-- Layout de entrada -->
+	<h2 class="center-align">Conectar-se:</h2>
+	<br>
+	<div class="container">
+    <form class="col s2" method="POST" action="#">
+      <div class="container">
+      <strong><label>Insira seu mail: </strong>
+        <div class="input-field col s12">
+          <label for="email">Email</label>
+          <input id="form-log-email" type="email" class="validate">
+          <i>Ex: email@email.com</i>
+        </div>
+      </div>
+      <div class="container">
+     <strong> <label>Insira sua senha: </strong>
+        <div class="input-field col s12">
+          <label for="password">Senha</label>
+          <input id="form-log-password" type="password" class="validate">
+          <p></p>
+      <div class="center-align">
+      <button class="waves-effect waves-light btn
+      "> <input style="border: none; background: none; color: white;" class="left-align" type="submit" value="Entrar"></button>
+      <a href="recuperar.php"><button style="font-size: 11px;" class="btn-flat disabled"> Esqueci minha senha </button></a>
+      </div>
+        </div>
+      </div>
+      </label>
+    </form>
 </body>
 </html>

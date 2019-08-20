@@ -43,5 +43,12 @@
       </div>
       </label>
     </form>
+	    <!-- Perguntas mais frequentes -->
+    <br>
+    <div class="center-align">Não tem conta ainda?
+    	<a href="cadastrar.php"><button style="font-size: 10px;" class="waves-effect waves-light btn-small"> Criar conta</button></a> <p>
+    <a href="recuperar.php"><button class="btn disabled"> Perguntas mais frequentes </button></a>
+    	</div>
+  </div>
 </body>
 </html>

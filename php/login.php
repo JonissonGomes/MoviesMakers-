@@ -50,5 +50,15 @@
     <a href="recuperar.php"><button class="btn disabled"> Perguntas mais frequentes </button></a>
     	</div>
   </div>
+		<!-- Rodapé da página -->
+  <footer style="background-color: white;"class="page-footer">
+  <div style="background-color: black;"class="footer-copyright">
+            <div class="container">
+            © 2019 Moviemakers Copyright
+            <a class="white-text text-lighten-4 right" href="#!">Termos de uso</a>
+            <a class="white-text text-lighten-4 right" href="#!">Privacidade e cookies</a>
+            </div>
+          </div>
+        </footer>
 </body>
 </html>

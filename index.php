@@ -18,6 +18,14 @@
   </div>
     </div>
   </nav>
+	<!-- Conteúdo para os visitantes -->
+	<div class="center-align">
+		<div class="row">
+		<h4> Escolha seus filmes favoritos com poucos cliques</h4>
+		
+		<i class="col 10 s12">De consumidor de mídia ao crítico de cinema, se curte assistir filmes por hobbie ou é fã de alguma franquia, independente do seu estilo a plataforma Moviemakers atende aos seus gostos.</i>
+		</div>
+	</div>
 	
 </body>
 </html>

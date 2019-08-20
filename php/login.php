@@ -13,7 +13,7 @@
     <div class="center-align">
       <a href="index.php" class="center hide-on-med-and-down">M O V I E M A K E R S</a>
   </div>
-    </div>
+   </div>
   </nav>
 	<!-- Layout de entrada -->
 	<h2 class="center-align">Conectar-se:</h2>

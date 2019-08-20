@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<title>Entrar na minha conta</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</head>
-<body>
+<?php
+
+session_start();
+include_once 'includes/header.php';
+
+?>
 <!-- NavBar -->
 	 <nav>
     <div style="background-color:#006064;" class="nav-wrapper">
@@ -51,14 +48,7 @@
     	</div>
   </div>
 		<!-- Rodapé da página -->
-  <footer style="background-color: white;"class="page-footer">
-  <div style="background-color: black;"class="footer-copyright">
-            <div class="container">
-            © 2019 Moviemakers Copyright
-            <a class="white-text text-lighten-4 right" href="#!">Termos de uso</a>
-            <a class="white-text text-lighten-4 right" href="#!">Privacidade e cookies</a>
-            </div>
-          </div>
-        </footer>
-</body>
-</html>
+
+<?php 
+include_once 'includes/footer.php'
+?>

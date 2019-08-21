@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include_once 'includes/header.php';
+include_once '../includes/header.php';
 
 ?>
 <!-- NavBar -->
@@ -50,5 +50,5 @@ include_once 'includes/header.php';
 		<!-- Rodapé da página -->
 
 <?php 
-include_once 'includes/footer.php'
+include_once '../includes/footer.php'
 ?>

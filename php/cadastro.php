@@ -84,7 +84,7 @@
 
 	<div class="center-align">
       <button class="waves-effect waves-light btn">
-      <input style="border: none; background: none; color: white;" class="left-align" type="submit" value="Entrar"></button>
+      <input style="border: none; background: none; color: white;" class="left-align" type="submit" value="Cadastrar"></button>
       <!-- <a href="recuperar.php"><button style="font-size: 11px;" class="btn-flat disabled"> Esqueci minha senha </button></a> -->
     </div>
 

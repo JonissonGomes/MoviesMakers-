@@ -13,7 +13,7 @@
     <div class="center-align">
       <a href="index.php" class="left">M O V I E M A K E R S</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="login.php" class="waves-effect waves-light btn">Entrar</a></li>
+        <li><a href="php/login.php" class="waves-effect waves-light btn">Entrar</a></li>
       </ul>
   </div>
     </div>

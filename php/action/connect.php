@@ -3,8 +3,8 @@
 function getConnection(){
 
 	$host = "localhost";
-	$bd = "web20191filmes";
-	$usr = "root";
+	$bd = "moviesmakers";
+	$usr = "mm_admin";
 	$pass = "ifpe";
 	//essa senha depende de qual maquina vc ta acessando o bd 
 

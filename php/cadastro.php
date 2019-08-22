@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <style>
+<style>
     body{
 
     }
@@ -32,8 +25,7 @@
 </head>
 
 <?php
-	// include 'includes/footer.php';
-	// include 'includes/header.php';
+	include '../includes/header.php';
 ?>
 <body>
 

@@ -80,6 +80,7 @@
       <!-- <a href="recuperar.php"><button style="font-size: 11px;" class="btn-flat disabled"> Esqueci minha senha </button></a> -->
     </div>
 
-</div>
-</body>
-</html>
+
+<?php
+  include '../includes/footer.php';
+?>

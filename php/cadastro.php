@@ -32,7 +32,7 @@
 	 <nav>
     <div style="background-color:#006064;" class="nav-wrapper">
     <div class="center-align">
-      <a href="index.php" class="center hide-on-med-and-down">M O V I E M A K E R S</a>
+      <a href="../index.php" class="center hide-on-med-and-down">M O V I E M A K E R S</a>
   </div>
    </div>
 </nav>

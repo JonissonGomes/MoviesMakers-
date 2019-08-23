@@ -14,7 +14,7 @@
     	<div class="col l4 offset-l2 s12">
       	<h5 class="white-text">Links</h5>
       	<ul>
-        	<li><a class="grey-text text-lighten-3" href="cadastro.php">Crie sua conta grátis</a></li>
+        	<li><a class="grey-text text-lighten-3" href="../php/cadastro.php">Crie sua conta grátis</a></li>
         	<li><a class="grey-text text-lighten-3" href="#">Fale conosco</a></li>
         	<li><a class="grey-text text-lighten-3" href="#!">Perguntas recentes</a></li>
         	<li><a class="grey-text text-lighten-3" href="sobre.php">Sobre</a></li>

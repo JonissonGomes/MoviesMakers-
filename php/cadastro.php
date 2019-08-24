@@ -34,6 +34,7 @@
 </nav>
 
 <div class="bloco">
+<form action="" method="POST">
 <div class="box">
 <div class="row">
  <div class="input-field col s6">
@@ -76,7 +77,7 @@
    <!-- <a href="recuperar.php"><button style="font-size: 11px;" class="btn-flat disabled"> Esqueci minha senha </button></a> -->
  </div>
 </div>
-
+</form>
 </div>
 	
 <?php

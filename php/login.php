@@ -2,6 +2,7 @@
 
 session_start();
 include_once '../includes/header.php';
+include_once '../includes/mensagem.php';
 
 ?>
 <!-- NavBar -->
@@ -16,7 +17,7 @@ include_once '../includes/header.php';
 	<h2 class="center-align">Conectar-se:</h2>
 	<br>
 	<div class="container">
-    <form class="col s2" method="POST" action="#">
+    <form class="col s2" method="POST" action="action/login.php">
       <div class="container">
       <strong><label>Insira seu mail: </strong>
         <div class="input-field col s12">
@@ -43,7 +44,7 @@ include_once '../includes/header.php';
 	    <!-- Perguntas mais frequentes -->
     <br>
     <div class="center-align">Não tem conta ainda?
-    	<a href="cadastrar.php"><button style="font-size: 10px;" class="waves-effect waves-light btn-small"> Criar conta</button></a> <p>
+    	<a href="cadastro.php"><button style="font-size: 10px;" class="waves-effect waves-light btn-small"> Criar conta</button></a> <p>
     <a href="recuperar.php"><button class="btn disabled"> Perguntas mais frequentes </button></a>
     	</div>
   </div>

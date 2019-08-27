@@ -34,50 +34,52 @@
 </nav>
 
 <div class="bloco">
-<form action="" method="POST">
-<div class="box">
-<div class="row">
- <div class="input-field col s6">
-   <input value="" id="first_name2" style="width: 400px;" type="text" class="validate">
-   <label class="active" for="first_name2">Nome Completo</label>
- </div>
-</div>
+  <form action="action/cadastro.php" method="POST">
+    <div class="box">
+      
+      <div class="row">
+       <div class="input-field col s6">
+         <input value="" id="first_name2" style="width: 400px;" type="text" class="validate" name="nome">
+         <label class="active" for="first_name2">Nome Completo</label>
+       </div>
+      </div>
 
-<div class="row">
- <div class="input-field col s12">
-   <input id="email" type="email" style="width: 400px;" class="validate">
-     <label for="email">Email</label>
- </div>
-</div>
+      <div class="row">
+       <div class="input-field col s12">
+         <input id="email" type="email" style="width: 400px;" class="validate" name="email">
+           <label for="email">Email</label>
+       </div>
+      </div>
 
-<div class="row">
- <div class="input-field col s12">
-   <input id="confirmeemail" type="email" style="width: 400px;" class="validate">
-     <label for="confirmeemail">Confirme seu Email</label>
- </div>
-</div>  
+      <div class="row">
+       <div class="input-field col s12">
+         <input id="confirmeemail" type="email" style="width: 400px;" class="validate" name="email2">
+           <label for="confirmeemail">Confirme seu Email</label>
+       </div>
+      </div>  
 
-<div class="row">
- <div class="input-field col s12">
-    <input id="password" type="password" style="width: 400px;" class="validate">
-     <label for="password">Senha</label>
-  </div>
-</div>
+      <div class="row">
+       <div class="input-field col s12">
+          <input id="password" type="password" style="width: 400px;" class="validate" name="senha">
+           <label for="password">Senha</label>
+        </div>
+      </div>
 
-<div class="row">
- <div class="input-field col s12">
-    <input id="confirmepassword" type="password" style="width: 400px;" class="validate">
-     <label for="confirmepassword">Confirme sua Senha</label>
-  </div>
-</div>
+      <div class="row">
+       <div class="input-field col s12">
+          <input id="confirmepassword" type="password" style="width: 400px;" class="validate" name="senha2">
+           <label for="confirmepassword">Confirme sua Senha</label>
+        </div>
+      </div>
 
-<div class="center-align">
-   <button class="waves-effect waves-light btn">
-   <input style="border: none; background: none; color: white;" class="left-align" type="submit" value="Cadastrar"></button>
-   <!-- <a href="recuperar.php"><button style="font-size: 11px;" class="btn-flat disabled"> Esqueci minha senha </button></a> -->
- </div>
-</div>
-</form>
+      <div class="center-align">
+        <button class="waves-effect waves-light btn" type="submit">
+          Cadastrar
+        </button>
+         <!-- <a href="recuperar.php"><button style="font-size: 11px;" class="btn-flat disabled"> Esqueci minha senha </button></a> -->
+       </div>
+    </div>
+  </form>
 </div>
 	
 <?php

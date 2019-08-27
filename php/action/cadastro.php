@@ -11,10 +11,19 @@ $add = $conexao->prepare("INSERT INTO users (name, email, password) VALUES (:nom
 $add->bindValue(":nome", $nome);
 $add->bindValue(":email", $email);
 $add->bindValue(":senha", $senha);
-$add->execute();
 
-$_SESSION['mensagem'] = "Cadastrado, faça seu login";
+$validate = $conexao->prepare("SELECT * FROM users WHERE email = '$email'");
+$validate->execute();
 
-header('Location: ../login.php');
+if ($validate->rowCount() == 0):
+	$add->execute();
+	$_SESSION['mensagem'] = "Cadastrado, faça seu login";
+	header('Location: ../login.php');
+else:
+	header('Location: ../cadastro.php');
+	$_SESSION['mensagem'] = "Usuário já cadastrado";
+endif;
+
+
 
  ?>

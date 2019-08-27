@@ -34,7 +34,7 @@ include_once '../includes/header.php';
       <div class="center-align">
       <button class="waves-effect waves-light btn
       "> <input style="border: none; background: none; color: white;" class="left-align" type="submit" value="Entrar"></button>
-      <a href="recuperar.php"><button style="font-size: 11px;" class="btn-flat disabled"> Esqueci minha senha </button></a>
+     <button class="waves-effect waves-light btn"><input style="border: none; background: none; color: white;" class="left-align" type="submit" value="Esqueci minha senha"></button>
       </div>
         </div>
       </div>

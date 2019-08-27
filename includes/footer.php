@@ -16,7 +16,7 @@
       	<ul>
         	<li><a class="grey-text text-lighten-3" href="../php/cadastro.php">Crie sua conta grátis</a></li>
         	<li><a class="grey-text text-lighten-3" href="#">Fale conosco</a></li>
-        	<li><a class="grey-text text-lighten-3" href="#!">Perguntas recentes</a></li>
+        	<li><a class="grey-text text-lighten-3" href="../php/perguntas.php">Perguntas Frequentes</a></li>
         	<li><a class="grey-text text-lighten-3" href="sobre.php">Sobre</a></li>
       	</ul>
     	</div>

@@ -1,7 +1,3 @@
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script>
-        M.AutoInit();
-</script>
 
 <!-- Finalização do site -->
 <footer class="page-footer">
@@ -30,5 +26,11 @@
 	</div>
 </footer>
         
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+        M.AutoInit();
+</script>
+
 </body>
 </html>

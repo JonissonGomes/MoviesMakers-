@@ -23,56 +23,56 @@
     </div>
   </nav>
 <!-- Inputs do cadastro de filmes -->
-  <h1 class="green-text text-darken-2">Cadastro de Filmes</h1>
+  <h1 class="green-text text-darken-2">Cadastro de Filmes </h1>
   <!-- Formulario de entrada -->
 <fieldset>
   <form class="col s12">
     <div class="row">
       <div class="row">
         <div class="input-field col s2">
-          <input id="first_name" type="text" class="validate">
-          <label for="first_name">Nome do Filme</label>
+          <input id="name" type="text" class="validate" required="">
+          <label for="name">Nome do Filme</label>
         </div>
       </div>
       <!--  -->
        <div class="row">
       <div class="input-field col s2">
-        <input id="last_name" type="date" class="validate">
-        <label for="last_name">Data de Lançamento</label>
+        <input id="year" type="date" class="validate" required="">
+        <label for="year">Data de Lançamento</label>
       </div>
        </div>
       <!--  -->
-
       <div class="row">
         <div class="input-field col s2">
-          <input id="name" type="text" class="validate">
-          <label for="name">Nome do Filme em Inglês</label>
+          <input id="duration" type="text" class="validate" required="">
+          <label for="duration">Duração do filme</label>
         </div>
       </div>
       <!--  -->
-
       <div class="row">
         <div class="input-field col s2">
-          <input id="director" type="text" class="validate">
+          <input id="director" type="text" class="validate" required="">
           <label for="director">Direção</label>
         </div>
       </div>
       <!--  -->
       <div class="row">
         <div class="input-field col s2">
-          <input id="genre" type="text" class="validate">
+          <input id="genre" type="text" class="validate" required="">
           <label for="genre">Gênero</label>
         </div>
       </div>
       <!--  -->
       <div class="row">
         <div class="input-field col s2">
-          <input id="synopsis" type="text" class="validate">
+          <input id="synopsis" type="text" class="validate" required="">
           <label for="synopsis">Sinopse</label>
         </div>
       </div>
       <!--  -->
-      <a class="waves-effect waves-light btn"><i class="material-icons left">chevron_right</i>Registrar</a>
+      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <i class="material-icons right">chevron_right</i>
+    </button>
     </form>
   </fieldset>
 <br>

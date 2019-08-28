@@ -20,6 +20,12 @@
 		<i class="col 10 s12">De consumidor de mídia ao crítico de cinema, se curte assistir filmes por hobbie ou é fã de alguma franquia, independente do seu estilo a plataforma Moviemakers atende aos seus gostos.</i>
 		</div>
 	</div>
+
+<div class="center-align">
+		<div class="row">
+          <h5 class="col 10 s12">Na plataforma MOVIEMAKERS você pode guardar e classificar seus filmes favoritos.<br><br>Evitando assim gasto de tempo para procurar seus filmes assistidos.</h5>
+        </div>
+    </div>
 	
 <?php
   include 'includes/footer.php';

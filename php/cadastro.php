@@ -74,7 +74,7 @@
       </div>
 
       <div class="center-align">
-        <button class="waves-effect waves-light btn" type="submit">
+        <button class="waves-effect waves-light btn" style="width: 150px;" type="submit">
           Cadastrar
         </button>
          <!-- <a href="recuperar.php"><button style="font-size: 11px;" class="btn-flat disabled"> Esqueci minha senha </button></a> -->

@@ -26,7 +26,13 @@
           <h5 class="col 10 s12">Na plataforma MOVIEMAKERS você pode guardar e classificar seus filmes favoritos.<br><br>Evitando assim gasto de tempo para procurar seus filmes assistidos.</h5>
         </div>
     </div>
-	
+
+	 <div class="center-align">
+        <div class="row">
+          <h5 class="col s10">Crie sua conta de maneira rápida e fácil.<br><br>Clique em <a href="php/cadastro.php" class="waves-effect waves-light btn">CRIAR CONTA</a></h5>
+        </div>
+      </div>
+    </div>
 <?php
   include 'includes/footer.php';
 ?>
